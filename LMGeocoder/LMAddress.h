@@ -73,7 +73,7 @@
 /*!
  *  An array of NSString containing formatted lines of the address.
  */
-@property (nonatomic, readonly, copy, nullable) NSArray<NSString *> *lines;
+@property (nonatomic, readonly, copy, nullable) NSArray<NSDictionary *> *lines;
 
 /*!
  *  Initialize with response from server
